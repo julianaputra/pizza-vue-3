@@ -27,6 +27,7 @@
       v-if="pizza.discount.is_active"
       class="pizza-card-ribbon"
       src="@/assets/img/ribbon.svg"
+      alt="offer-ribbon"
     />
   </label>
 </template>

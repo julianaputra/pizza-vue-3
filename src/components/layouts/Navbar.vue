@@ -5,7 +5,7 @@
   >
     <div class="container">
       <a href="/" class="navbar-brand d-flex w-50 me-auto">
-        <img src="@/assets/logo.svg" alt="Foodnow Logo" />
+        <img src="@/assets/logo.svg" alt="Foodnow Logo" class="img-fluid" />
       </a>
       <button
         class="navbar-toggler"

@@ -4,7 +4,11 @@
       <b-row>
         <b-col lg="3">
           <a href="/" class="d-flex w-50 mb-5">
-            <img src="@/assets/logo-alt.svg" alt="Foodnow Logo" />
+            <img
+              src="@/assets/logo-alt.svg"
+              class="img-fluid"
+              alt="Foodnow Logo"
+            />
           </a>
           <h4 class="text-primary">Find Us :</h4>
         </b-col>
