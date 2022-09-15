@@ -1,0 +1,17 @@
+//  ================================================================================================
+//  File Name: include.scss
+//  Description: Common components file to include all theme specific custom components.
+//  Author: Juliana Putra
+//  ================================================================================================
+
+// Functions
+@import "node_modules/bootstrap/scss/functions";
+
+
+// Variables
+@import '_variables.scss'; // Bootstrap extended variable override
+@import "node_modules/bootstrap/scss/variables";
+
+// Mixins
+@import "node_modules/bootstrap/scss/mixins";
+

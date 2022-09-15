@@ -1,0 +1,44 @@
+// Define variable defaults
+$orange: #E77E23 !default; //$primary
+$white: #F8F8F6 !default;
+$primary: $orange;
+$light: $white;
+
+$font-family-base:            'Open Sans', sans-serif;
+$headings-font-family:        'Open Sans', sans-serif;
+$headings-font-weight:        700 !default;
+// $headings-margin-bottom:      2.25rem !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1920px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 85%,
+  xl: 85%,
+  xxl: 85%
+) !default;
+
+
+$h1-font-size:                5.25rem !default; // 84px
+$h2-font-size:                2.625rem !default; // 42px
+$h3-font-size:                2rem !default; // 32px
+$h4-font-size:                1.25rem !default; // 20px
+$h5-font-size:                1.125rem !default; // 18px
+
+$navbar-dark-color: $white;
+
+$btn-font-weight: 700;
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 2.375rem;
+
+$form-check-input-checked-border-color: $primary;
+$form-check-input-checked-bg-color: $white;
+$form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#{$primary}'/></svg>");
