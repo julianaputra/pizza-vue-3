@@ -1,8 +1,10 @@
 // Define variable defaults
 $orange: #E77E23 !default; //$primary
 $white: #F8F8F6 !default;
+$black: #333333 !default;
 $primary: $orange;
 $light: $white;
+$dark: $black;
 
 $font-family-base:            'Open Sans', sans-serif;
 $headings-font-family:        'Open Sans', sans-serif;
@@ -25,6 +27,8 @@ $container-max-widths: (
   xl: 85%,
   xxl: 85%
 ) !default;
+
+$body-color:   $black;
 
 
 $h1-font-size:                5.25rem !default; // 84px
